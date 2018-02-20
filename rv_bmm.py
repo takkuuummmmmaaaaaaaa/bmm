@@ -10,10 +10,10 @@ def rvs_bmm(a, b, n, p):
 
     return rv
 
-a = np.array([1, 3, 0.5])
-b = np.array([3, 1, 0.5])
-n = 100
-p = np.array([0.3, 0.6, 0.1])
+# a = np.array([1, 3, 0.5])
+# b = np.array([3, 1, 0.5])
+# n = 100
+# p = np.array([0.3, 0.6, 0.1])
 
-rv = rvs_bmm(a, b, n, p)
-print(type(rv), rv.shape, rv)
+# rv = rvs_bmm(a, b, n, p)
+# print(type(rv), rv.shape, rv)
